@@ -8,8 +8,8 @@ fonts:
   mono: Fira Code
 ---
 
-# LLMs, AI Agents and RAG
-### Real-World Examples from a Developer’s Daily Work
+# LLMs, AI Agents und RAG
+### Praxisbeispiele aus dem Entwickleralltag
 
 <div class="absolute bottom-10">
   <span class="font-700">
@@ -19,11 +19,11 @@ fonts:
 
 ---
 
-# 👨‍💻 Who am I?
+# 👨‍💻 Wer bin ich?
 
 - **David �belacker**
 - Software Architect @ nag informatik ag in Basel
-- 20+ years of experience in web and mobile application development
+- 20+ Jahre Erfahrung in der Web- und Mobile-App-Entwicklung
 
 <div class="absolute bottom-10">
   <div class="flex items-end">
@@ -42,26 +42,26 @@ layout: two-cols-header
 
 ::left::
 
-# Today’s Topics
+# Heutige Themen
 
 <div style="padding-top: 20px;"></div>
 
-## Theory
+## Theorie
 
 <div class="emoji-list" style="padding-top: 10px; padding-bottom: 30px;">
 
-* 🧠 What are LLMs, AI Agents and RAG?
-* ☁️ Cloud vs. local models
+* 🧠 Was sind LLMs, AI Agents und RAG?
+* ☁️ Cloud vs. lokale Modelle
 
 </div>
 
-## Examples
+## Beispiele
 
 <div class="emoji-list" style="padding-top: 10px;">
 
-* 💬 Generate Git commit messages
-* 🗼 Finally automate localization
-* 📬 Automate mail support with RAG
+* 💬 Git Commit-Messages generieren
+* 🗼 Lokalisierung endlich automatisieren
+* 📬 E-Mail-Support mit RAG automatisieren
 
 </div>
 
@@ -71,9 +71,9 @@ layout: two-cols-header
 
 ---
 
-# What is an LLM?
+# Was ist ein LLM?
 
-A Large Language Model (LLM) is a type of artificial intelligence designed to understand, predict, and generate human-like text.
+Ein Large Language Model (LLM) ist eine Art von künstlicher Intelligenz, die darauf ausgelegt ist, menschenähnlichen Text zu verstehen, vorherzusagen und zu generieren.
 
 <div class="center">
   <img src="./images/llm.svg" style="padding-top: 100px; width: 80%;"/>
@@ -81,17 +81,17 @@ A Large Language Model (LLM) is a type of artificial intelligence designed to un
 
 ---
 
-# What is an AI Agent?
+# Was ist ein AI Agent?
 
-An AI agent is a system that takes a goal, uses a large language model (LLM) and tools, and iterates until the goal is achieved.
+Ein AI Agent ist ein System, das ein Ziel übernimmt, ein Large Language Model (LLM) und Tools verwendet und so lange iteriert, bis das Ziel erreicht ist.
 
 <img src="./images/agents.svg" style="padding-bottom: 20px;"/>
 
 ---
 
-# What is RAG ?
+# Was ist RAG?
 
-RAG, or Retrieval-Augmented Generation, is an AI technique that combines a large language model's ability to generate text with an external knowledge base, such as a database or set of documents, to produce more accurate and relevant answers.
+RAG, oder Retrieval-Augmented Generation, ist eine KI-Technik, die die Fähigkeit eines Large Language Models zur Textgenerierung mit einer externen Wissensbasis, wie einer Datenbank oder einem Dokumentenset, kombiniert, um genauere und relevantere Antworten zu erzeugen.
 
 <img src="./images/rag.svg" style="padding-bottom: 20px;"/>
 
@@ -100,38 +100,40 @@ RAG, or Retrieval-Augmented Generation, is an AI technique that combines a large
 layout: two-cols-header
 ---
 
-# 🦜 LangChain4j
-
-A Java framework for building LLM-powered applications with clean APIs and Java best practices.
+# 🦜 LangChain.js & LangGraph.js
 
 ::left::
 
+### LangChain.js
+
+Ein Framework zum Erstellen von LLM-basierten Anwendungen.
 
 <div class="emoji-list">
 
-* 🧠 Multiple LLM providers
-* 📦 Document loaders and vector stores
-* 🛠️ Tools with Java method annotations
-* 💬 AI Services
+* 🧠 Mehrere LLM-Provider
+* 📦 Document und Vector Stores
+* 🛠️ Externe Tools und APIs
 
 </div>
 
 ::right::
 
+### LangGraph.js
+
+Ein Framework zum Erstellen komplexer, zustandsbehafteter AI-Agent-Workflows mit fortgeschrittener Orchestration.
+
 <div class="emoji-list">
 
-* 🔌 Spring Boot integration
-* 📝 Prompt templates
-* 🔄 RAG pipelines
+* 🗃️ **State Management** - Persistenter Speicher
+* 🔵 **Nodes** - Workflow-Komponenten
+* ➡️ **Edges** - Bedingte Logik
 
 </div>
 
 ::bottom::
 
-LangChain4j is the Java equivalent of Python's **LangChain** and supports similar patterns like agents, RAG, and chain orchestration.
-
 ---
 layout: fact
 ---
 
-# Thank you!
+# Vielen Dank!

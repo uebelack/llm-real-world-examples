@@ -2,7 +2,7 @@
 
 As developers, we spend a surprising amount of time on repetitive but necessary tasks — writing commit messages, maintaining localization files, responding to support requests, or wiring new AI features into our apps.
 
-In this talk, I’ll share real tools and solutions I built to simplify my own daily work using LangChain4j, LLMs, AI Agents, and RAG (Retrieval-Augmented Generation). You’ll see — live and in code — how these emerging technologies can be used to automate real-world tasks and integrate AI naturally into your developer workflow.
+In this talk, I’ll share real tools and solutions I built to simplify my own daily work using LangChain.js and LangGraph.js, LLMs, AI Agents, and RAG (Retrieval-Augmented Generation). You’ll see — live and in code — how these emerging technologies can be used to automate real-world tasks and integrate AI naturally into your developer workflow.
 
 We’ll explore:
 
@@ -24,18 +24,15 @@ Takeaway: You’ll walk away with reproducible examples, practical patterns, and
 -----
 
 
-Dear JCON Team,
+Dear ZurichJS Team,
 
 Over the past two to three years, I’ve seen many talks about LLMs and related technologies — but what’s often missing are real-world examples and battle-tested best practices.
 
 With this talk, I want to share my hands-on experience building applications and tools using LLMs and the ecosystem around them. I’ll present three examples that I use in my own daily developer workflow to increase productivity and simplify repetitive tasks.
 
-I would be truly happy to bring this practical, developer-focused perspective on LLMs to JCON and share insights that attendees can immediately apply in their own projects.
+I would be truly happy to bring this practical, developer-focused perspective on LLMs to ZurichJS and share insights that attendees can immediately apply in their own projects.
 
 Best regards,
 David
 
-Presentation draft: 
-https://www.dropbox.com/scl/fi/ycgc6rfyao3vagqdh3usz/LLMs-AI-Agents-RAG-and-MCP-Real-World-Examples-David-Uebelacker.pdf?rlkey=ifdr30yi155pyrfz09inldpoy&dl=0
-
-Video of my last talk:
+If you want to see me in action, here is the video of my last talk: 

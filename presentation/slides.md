@@ -100,35 +100,35 @@ RAG, or Retrieval-Augmented Generation, is an AI technique that combines a large
 layout: two-cols-header
 ---
 
-# 🦜 LangChain4j
-
-A Java framework for building LLM-powered applications with clean APIs and Java best practices.
+# 🦜 LangChain.js & LangGraph.js
 
 ::left::
 
+### LangChain.js
+
+A framework for building LLM-based applications.
 
 <div class="emoji-list">
 
 * 🧠 Multiple LLM providers
-* 📦 Document loaders and vector stores
-* 🛠️ Tools with Java method annotations
-* 💬 AI Services
+* 📦 Document and Vector Stores
+* 🛠️ External tools and APIs
 
 </div>
 
 ::right::
 
+### LangGraph.js
+
+A framework for building complex, stateful AI agent workflows with advanced orchestration.
+
 <div class="emoji-list">
 
-* 🔌 Spring Boot integration
-* 📝 Prompt templates
-* 🔄 RAG pipelines
+* 🗃️ **State Management** - Persistent storage
+* 🔵 **Nodes** - Workflow components
+* ➡️ **Edges** - Conditional logic
 
 </div>
-
-::bottom::
-
-LangChain4j is the Java equivalent of Python's **LangChain** and supports similar patterns like agents, RAG, and chain orchestration.
 
 ---
 layout: fact

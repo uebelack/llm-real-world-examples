@@ -1,41 +1,36 @@
-# LLMs, AI Agents, and RAG: Real-World Examples from a Developer’s Daily Work
+LLMs, AI Agents und RAG: Praxisbeispiele aus dem Entwickleralltag
 
-As developers, we spend a surprising amount of time on repetitive but necessary tasks — writing commit messages, maintaining localization files, responding to support requests, or wiring new AI features into our apps.
+Als Entwickler verbringen wir überraschend viel Zeit mit sich wiederholenden, aber notwendigen Aufgaben – etwa beim Schreiben von Commit Messages, der Pflege von Lokalisierungsdateien, dem Beantworten von Supportanfragen oder beim Einbinden neuer AI-Features in unsere Apps.
 
-In this talk, I’ll share real tools and solutions I built to simplify my own daily work using LangChain4j, LLMs, AI Agents, and RAG (Retrieval-Augmented Generation). You’ll see — live and in code — how these emerging technologies can be used to automate real-world tasks and integrate AI naturally into your developer workflow.
+In diesem Vortrag zeige ich echte Tools und Lösungen, die ich mit LangChain.js, LLMs, AI Agents und RAG (Retrieval-Augmented Generation) entwickelt habe, um meine tägliche Arbeit zu vereinfachen. Live und im Code wird deutlich, wie sich diese Technologien nutzen lassen, um reale Aufgaben zu automatisieren und AI natürlich in den Entwickler-Workflow zu integrieren.
 
-We’ll explore:
+Wir werfen einen Blick auf:
 
-* Generating meaningful Git commit messages with context
-* Automating localization file translations intelligently
-* Powering e-mail support with RAG
+* Generieren aussagekräftiger Git-Commit-Messages mit Kontext
+* Intelligentes Automatisieren von Übersetzungen in Lokalisierungsdateien
+* Automatisieren von E-Mail-Support mit RAG
 
-Along the way, we’ll dive into:
+Dabei gehen wir tiefer auf folgende Themen ein:
 
-* How AI Agents work and how they can safely use tools
-* How to use RAG to improve accuracy and reliability
-* Best practices for building maintainable AI integrations
-* The pros and cons of local vs. cloud models
+* Funktionsweise von AI Agents und ihr sicherer Umgang mit Tools
+* Einsatz von RAG zur Steigerung von Genauigkeit und Zuverlässigkeit
+* Best Practices für wartbare AI-Integrationen
+* Vor- und Nachteile von lokalen gegenüber Cloud-Modellen
 
-Expect live coding, architecture insights, and battle-tested best practices for running LLMs in production.
+Erwartet werden Live-Coding, Architektur-Einblicke und praxiserprobte Best Practices für den produktiven Einsatz von LLMs.
 
-Takeaway: You’ll walk away with reproducible examples, practical patterns, and a clear understanding of how LLMs can make your daily developer life simpler and more productive — whether running in the cloud or directly on your local machine.
+Takeaway: Du erhältst reproduzierbare Beispiele, praxisnahe Patterns und ein klares Verständnis dafür, wie LLMs deinen Entwickleralltag vereinfachen und produktiver machen können – egal ob in der Cloud oder lokal auf deinem Rechner.
 
 -----
 
 
-Dear JCON Team,
+Liebes EnterJs-Team,
 
-Over the past two to three years, I’ve seen many talks about LLMs and related technologies — but what’s often missing are real-world examples and battle-tested best practices.
+In den vergangenen zwei bis drei Jahren habe ich viele Vorträge über LLMs und verwandte Technologien gesehen – doch häufig fehlen dabei reale Praxisbeispiele und erprobte Best Practices.
 
-With this talk, I want to share my hands-on experience building applications and tools using LLMs and the ecosystem around them. I’ll present three examples that I use in my own daily developer workflow to increase productivity and simplify repetitive tasks.
+Mit diesem Vortrag möchte ich meine praktischen Erfahrungen beim Entwickeln von Anwendungen und Tools mit LLMs und dem dazugehörigen Ökosystem teilen. Ich präsentiere drei konkrete Beispiele aus meinem eigenen Entwickleralltag, mit denen ich meine Produktivität steigere und wiederkehrende Aufgaben vereinfache.
 
-I would be truly happy to bring this practical, developer-focused perspective on LLMs to JCON and share insights that attendees can immediately apply in their own projects.
+Ich würde mich sehr freuen, diese praxisorientierte, entwicklerfokussierte Perspektive auf LLMs an der EnterJS zu teilen und Einblicke zu geben, die die Teilnehmenden direkt in ihren eigenen Projekten anwenden können.
 
-Best regards,
+Beste Grüsse
 David
-
-Presentation draft: 
-https://www.dropbox.com/scl/fi/ycgc6rfyao3vagqdh3usz/LLMs-AI-Agents-RAG-and-MCP-Real-World-Examples-David-Uebelacker.pdf?rlkey=ifdr30yi155pyrfz09inldpoy&dl=0
-
-Video of my last talk:

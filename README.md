@@ -2,7 +2,7 @@ LLMs, AI Agents und RAG: Praxisbeispiele aus dem Entwickleralltag
 
 Als Entwickler verbringen wir überraschend viel Zeit mit sich wiederholenden, aber notwendigen Aufgaben – etwa beim Schreiben von Commit Messages, der Pflege von Lokalisierungsdateien, dem Beantworten von Supportanfragen oder beim Einbinden neuer AI-Features in unsere Apps.
 
-In diesem Vortrag zeige ich echte Tools und Lösungen, die ich mit LangChain.js, LLMs, AI Agents und RAG (Retrieval-Augmented Generation) entwickelt habe, um meine tägliche Arbeit zu vereinfachen. Live und im Code wird deutlich, wie sich diese Technologien nutzen lassen, um reale Aufgaben zu automatisieren und AI natürlich in den Entwickler-Workflow zu integrieren.
+In diesem Vortrag zeige ich echte Tools und Lösungen, die ich mit LangChain (JavaScript und Java), LLMs, AI Agents und RAG (Retrieval-Augmented Generation) entwickelt habe, um meine tägliche Arbeit zu vereinfachen. Live und im Code wird deutlich, wie sich diese Technologien nutzen lassen, um reale Aufgaben zu automatisieren und AI natürlich in den Entwickler-Workflow zu integrieren.
 
 Wir werfen einen Blick auf:
 
@@ -24,13 +24,13 @@ Takeaway: Du erhältst reproduzierbare Beispiele, praxisnahe Patterns und ein kl
 -----
 
 
-Liebes EnterJs-Team,
+Liebes BaselOne-Team,
 
 In den vergangenen zwei bis drei Jahren habe ich viele Vorträge über LLMs und verwandte Technologien gesehen – doch häufig fehlen dabei reale Praxisbeispiele und erprobte Best Practices.
 
 Mit diesem Vortrag möchte ich meine praktischen Erfahrungen beim Entwickeln von Anwendungen und Tools mit LLMs und dem dazugehörigen Ökosystem teilen. Ich präsentiere drei konkrete Beispiele aus meinem eigenen Entwickleralltag, mit denen ich meine Produktivität steigere und wiederkehrende Aufgaben vereinfache.
 
-Ich würde mich sehr freuen, diese praxisorientierte, entwicklerfokussierte Perspektive auf LLMs an der EnterJS zu teilen und Einblicke zu geben, die die Teilnehmenden direkt in ihren eigenen Projekten anwenden können.
+Ich würde mich sehr freuen, diese praxisorientierte, entwicklerfokussierte Perspektive auf LLMs an der BaselOne zu teilen und Einblicke zu geben, die die Teilnehmenden direkt in ihren eigenen Projekten anwenden können.
 
 Beste Grüsse
 David

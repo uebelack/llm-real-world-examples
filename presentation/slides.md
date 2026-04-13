@@ -39,9 +39,39 @@ fonts:
 
 ---
 
-September 2025: Salesforce entlässt 4000 Mitarbeiter und ersetzt sie durch KI-Agenten
-Januar 2026: Anthropic-CEO prognostiziert: KI-Modelle ersetzen Softwareentwickler in 6–12 Monaten
-März 2026: Atlassian entlässt jeden zehnten Mitarbeiter wegen KI
+<div class="newspaper">
+  <div class="newspaper-rule-thick"></div>
+  <div class="newspaper-articles">
+    <div class="newspaper-article">
+      <div class="newspaper-date">September 2025</div>
+      <div class="newspaper-headline">Salesforce entlässt 4.000 Mitarbeiter und ersetzt sie durch KI-Agenten</div>
+    </div>
+    <div class="newspaper-divider"></div>
+    <div class="newspaper-article">
+      <div class="newspaper-date">Januar 2026</div>
+      <div class="newspaper-headline">Anthropic-CEO prognostiziert: KI-Modelle ersetzen Softwareentwickler in 6–12 Monaten</div>
+    </div>
+    <div class="newspaper-divider"></div>
+    <div class="newspaper-article">
+      <div class="newspaper-date">März 2026</div>
+      <div class="newspaper-headline">Atlassian entlässt jeden zehnten Mitarbeiter wegen KI</div>
+    </div>
+  </div>
+  <div class="newspaper-rule-thick"></div>
+</div>
+
+---
+
+<div class="newspaper">
+  <div class="newspaper-rule-thick"></div>
+  <div class="newspaper-articles">
+    <div class="newspaper-article">
+      <div class="newspaper-date">März 2026</div>
+      <div class="newspaper-headline">OpenAI will Belegschaft bis 2026 fast verdoppeln </div>
+    </div>
+  </div>
+  <div class="newspaper-rule-thick"></div>
+</div>
 
 ---
 layout: two-cols-header

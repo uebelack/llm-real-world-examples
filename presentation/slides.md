@@ -67,7 +67,7 @@ fonts:
   <div class="newspaper-articles">
     <div class="newspaper-article">
       <div class="newspaper-date">März 2026</div>
-      <div class="newspaper-headline">OpenAI will Belegschaft bis 2026 fast verdoppeln </div>
+      <div class="newspaper-headline">OpenAI will Belegschaft bis 2026 fast verdoppeln</div>
     </div>
   </div>
   <div class="newspaper-rule-thick"></div>
@@ -118,6 +118,55 @@ Ein Large Language Model (LLM) ist eine Art von künstlicher Intelligenz, die da
 
 ---
 
+# 💡 TIPP: Keep it short
+
+**Je kleiner und präziser die Aufgabe, desto besser das Ergebnis.**
+
+<br/>
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+### ❌ Vermeiden
+
+```text
+"Schreib mir eine komplette Web-App mit Login, Dashboard 
+und REST-API"
+```
+
+🫠 Zu viel auf einmal
+
+- 🎯 LLM verliert den Fokus
+- 🧊 Ergebnis ist oberflächlich
+- 🔧 Schwer zu korrigieren
+
+</div>
+<div>
+
+### ✅ Besser: Aufgabe aufteilen
+
+```text
+1. „Entwirf das Datenmodell für User + Rollen"
+2. „Erstelle den Login-Endpoint mit JWT"
+3. „Baue die Dashboard-Komponente"
+```
+
+🎯 Ein Task = ein klares Ziel
+
+- ✨ Ergebnis ist fokussiert und präzise
+- 🐛 Fehler sind sofort erkennbar
+- 🔄 Iteratives Arbeiten möglich
+
+</div>
+</div>
+
+<br/>
+
+> 🧠 **Kleine Tasks → mehr Kontrolle → bessere Ergebnisse**
+
+
+---
+
 # Was ist ein AI Agent?
 
 Ein AI Agent ist ein System, das ein Ziel übernimmt, ein Large Language Model (LLM) und Tools verwendet und so lange iteriert, bis das Ziel erreicht ist.
@@ -132,6 +181,26 @@ RAG, oder Retrieval-Augmented Generation, ist eine KI-Technik, die die Fähigkei
 
 <img src="./images/rag.svg" style="padding-bottom: 20px;"/>
 
+
+---
+layout: two-cols-header
+---
+
+# 💡 TIPP: Prompts isoliert testbar machen
+
+Prompt-Engineering ist Experimentieren. Je schneller du einen einzelnen Prompt ausführen und bewerten kannst, desto schneller wird er gut. Ohne Testbarkeit debuggst du blind.
+
+::left::
+### 🗄️ Cache in der Entwicklung
+Gleicher Input → gleiche Response, kein API-Call. Spart Zeit & Tokens, macht Runs deterministisch.
+
+::right::
+### 🎯 Prompt Integration Tests 
+Pro Prompt ein isolierter integration Test der mit dem Prompt das LLM aufruft.
+
+::bottom::
+
+<img src="./images/test_prompts.svg" />
 
 ---
 layout: two-cols-header

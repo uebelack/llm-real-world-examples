@@ -37,6 +37,65 @@ fonts:
 </div>
 
 ---
+
+<div class="newspaper">
+  <div class="newspaper-rule-thick"></div>
+  <div class="newspaper-articles">
+    <div class="newspaper-article">
+      <div class="newspaper-date">September 2025</div>
+      <div class="newspaper-headline">Salesforce lays off 4,000 employees and replaces them with AI agents</div>
+    </div>
+    <div class="newspaper-divider"></div>
+    <div class="newspaper-article">
+      <div class="newspaper-date">January 2026</div>
+      <div class="newspaper-headline">Anthropic CEO predicts: AI models will replace software developers in 6–12 months</div>
+    </div>
+    <div class="newspaper-divider"></div>
+    <div class="newspaper-article">
+      <div class="newspaper-date">March 2026</div>
+      <div class="newspaper-headline">Atlassian cuts one in ten employees due to AI</div>
+    </div>
+  </div>
+  <div class="newspaper-rule-thick"></div>
+</div>
+
+---
+
+<div class="newspaper">
+  <div class="newspaper-rule-thick"></div>
+  <div class="newspaper-articles">
+    <div class="newspaper-article">
+      <div class="newspaper-date">March 2026</div>
+      <div class="newspaper-headline">OpenAI plans to nearly double its workforce by 2026</div>
+    </div>
+  </div>
+  <div class="newspaper-rule-thick"></div>
+</div>
+
+
+---
+layout: two-cols-header
+---
+
+# Our job is changing
+
+<br/>
+Two things we need to do right now:
+
+::left::
+
+## 1. Working with AI 🛠️
+
+We need to **stay on top of things** and learn to work with the new AI tools — to become more productive and improve the quality of our work.
+
+::right::
+
+## 2. Building with AI 🚀
+
+We need to learn to **develop AI applications ourselves** — to be ready when processes in the company are to be automated and improved with the help of AI.
+
+
+---
 layout: two-cols-header
 ---
 
@@ -80,6 +139,88 @@ A Large Language Model (LLM) is a type of artificial intelligence designed to un
 </div>
 
 ---
+layout: two-cols-header
+---
+
+# Frameworks
+
+Open-source frameworks for abstracting LLMs/APIs and developing AI agents.
+
+<br/>
+
+::left::
+
+### 🦜 LangChain
+* 🐍 Python, 🟨 JavaScript/TypeScript, ☕ Java (LangChain4j)
+* https://langchain.com/
+
+<br/>
+
+### ▲ Vercel AI SDK
+* TypeScript-first, streaming & structured output via Zod
+* https://ai-sdk.dev/
+
+::right::
+
+### 🤖 Agent Development Kit
+* New framework from Google
+* 🐍 Python, 🔷 TypeScript, 🐹 Go, ☕ Java
+* https://adk.dev/
+
+<br/>
+
+### ⚡ mastra
+* TypeScript-first, by the team behind Gatsby (YC W25)
+* Built on top of the Vercel AI SDK
+* https://mastra.ai/
+
+---
+layout: two-cols-header
+---
+
+# 💡 TIP: Keep it short
+
+**The smaller and more precise the task, the better the result.**
+
+<br/>
+
+::left::
+
+### ❌ Avoid
+
+```text
+"Write me a complete web app with login, dashboard 
+and REST API"
+```
+
+🫠 Too much at once
+
+- 🎯 LLM loses focus
+- 🧊 Result is superficial
+- 🔧 Hard to correct
+
+::right::
+
+### ✅ Better: Split the task
+
+```text
+1. "Design the data model for users + roles"
+2. "Create the login endpoint with JWT"
+3. "Build the dashboard component"
+```
+
+🎯 One task = one clear goal
+
+- ✨ Result is focused and precise
+- 🐛 Errors are immediately visible
+- 🔄 Iterative work is possible
+
+::bottom::
+
+> 🧠 **Small tasks → more control → better results**
+
+
+---
 
 # What is an AI Agent?
 
@@ -100,35 +241,21 @@ RAG, or Retrieval-Augmented Generation, is an AI technique that combines a large
 layout: two-cols-header
 ---
 
-# 🦜 LangChain.js & LangGraph.js
+# 💡 TIP: Make prompts testable in isolation
+
+Prompt engineering is experimentation. The faster you can run and evaluate a single prompt, the faster it gets good. Without testability, you're debugging blind.
 
 ::left::
-
-### LangChain.js
-
-A framework for building LLM-based applications.
-
-<div class="emoji-list">
-
-* 🧠 Multiple LLM providers
-* 📦 Document and Vector Stores
-* 🛠️ External tools and APIs
-
-</div>
+### 🗄️ Cache during development
+Same input → same response, no API call. Saves time & tokens, makes runs deterministic.
 
 ::right::
+### 🎯 Prompt integration tests
+One isolated integration test per prompt that calls the LLM with that prompt.
 
-### LangGraph.js
+::bottom::
 
-A framework for building complex, stateful AI agent workflows with advanced orchestration.
-
-<div class="emoji-list">
-
-* 🗃️ **State Management** - Persistent storage
-* 🔵 **Nodes** - Workflow components
-* ➡️ **Edges** - Conditional logic
-
-</div>
+<img src="./images/test_prompts.svg" />
 
 ---
 layout: fact

@@ -77,6 +77,28 @@ fonts:
 layout: two-cols-header
 ---
 
+# Unser Job ändert sich
+
+<br/>
+
+Diese zwei Dinge müsen wir nun machen:
+
+::left::
+
+### 1. Mit AI arbeiten 🛠️
+
+Wir müssen **dranbleiben** und lernen, mit den neuen AI-Tools zu arbeiten – um produktiver zu werden und die Qualität unserer Arbeit zu steigern.
+
+::right::
+
+### 2. AI bauen 🚀
+
+Wir müssen lernen, **selbst AI-Applikationen zu entwickeln** – um bereit zu sein, wenn Prozesse im Unternehmen mithilfe von AI automatisiert und verbessert werden sollen.
+
+---
+layout: two-cols-header
+---
+
 ::left::
 
 # Heutige Themen
@@ -153,15 +175,14 @@ Open-Source-Frameworks für die Abstraktion von LLMs/APIs und die Entwicklung vo
 * https://mastra.ai/
 
 ---
+layout: two-cols-header
+---
 
 # 💡 TIPP: Keep it short
 
 **Je kleiner und präziser die Aufgabe, desto besser das Ergebnis.**
 
-<br/>
-
-<div class="grid grid-cols-2 gap-8">
-<div>
+::left::
 
 ### ❌ Vermeiden
 
@@ -176,8 +197,7 @@ und REST-API"
 - 🧊 Ergebnis ist oberflächlich
 - 🔧 Schwer zu korrigieren
 
-</div>
-<div>
+::right::
 
 ### ✅ Besser: Aufgabe aufteilen
 
@@ -193,10 +213,7 @@ und REST-API"
 - 🐛 Fehler sind sofort erkennbar
 - 🔄 Iteratives Arbeiten möglich
 
-</div>
-</div>
-
-<br/>
+::bottom::
 
 > 🧠 **Kleine Tasks → mehr Kontrolle → bessere Ergebnisse**
 

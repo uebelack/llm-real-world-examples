@@ -117,6 +117,42 @@ Ein Large Language Model (LLM) ist eine Art von künstlicher Intelligenz, die da
 </div>
 
 ---
+layout: two-cols-header
+---
+
+# Frameworks
+
+Open-Source-Frameworks für die Abstraktion von LLMs/APIs und die Entwicklung von AI Agenten.
+
+<br/>
+
+::left::
+
+### 🦜 LangChain
+* 🐍 Python, 🟨 JavaScript/TypeScript, ☕ Java (LangChain4j)
+* https://langchain.com/
+
+<br/>
+
+### ▲ Vercel AI SDK
+* TypeScript-first, Streaming & Structured Output via Zod
+* https://ai-sdk.dev/
+
+::right::
+
+### 🤖 Agent Development Kit
+* Neues Framework von Google
+* 🐍 Python, 🔷 TypeScript, 🐹 Go, ☕ Java
+* https://adk.dev/
+
+<br/>
+
+### ⚡ mastra
+* TypeScript-first, vom Team hinter Gatsby (YC W25)
+* Baut auf dem Vercel AI SDK auf
+* https://mastra.ai/
+
+---
 
 # 💡 TIPP: Keep it short
 
@@ -202,41 +238,6 @@ Pro Prompt ein isolierter integration Test der mit dem Prompt das LLM aufruft.
 
 <img src="./images/test_prompts.svg" />
 
----
-layout: two-cols-header
----
-
-# 🦜 LangChain.js & LangGraph.js
-
-::left::
-
-### LangChain.js
-
-Ein Framework zum Erstellen von LLM-basierten Anwendungen.
-
-<div class="emoji-list">
-
-* 🧠 Mehrere LLM-Provider
-* 📦 Document und Vector Stores
-* 🛠️ Externe Tools und APIs
-
-</div>
-
-::right::
-
-### LangGraph.js
-
-Ein Framework zum Erstellen komplexer, zustandsbehafteter AI-Agent-Workflows mit fortgeschrittener Orchestration.
-
-<div class="emoji-list">
-
-* 🗃️ **State Management** - Persistenter Speicher
-* 🔵 **Nodes** - Workflow-Komponenten
-* ➡️ **Edges** - Bedingte Logik
-
-</div>
-
-::bottom::
 
 ---
 layout: fact

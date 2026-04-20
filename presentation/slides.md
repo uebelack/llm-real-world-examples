@@ -36,6 +36,65 @@ fonts:
   </div>
 </div>
 
+
+---
+
+<div class="newspaper">
+  <div class="newspaper-rule-thick"></div>
+  <div class="newspaper-articles">
+    <div class="newspaper-article">
+      <div class="newspaper-date">September 2025</div>
+      <div class="newspaper-headline">Salesforce entlässt 4.000 Mitarbeiter und ersetzt sie durch KI-Agenten</div>
+    </div>
+    <div class="newspaper-divider"></div>
+    <div class="newspaper-article">
+      <div class="newspaper-date">Januar 2026</div>
+      <div class="newspaper-headline">Anthropic-CEO prognostiziert: KI-Modelle ersetzen Softwareentwickler in 6–12 Monaten</div>
+    </div>
+    <div class="newspaper-divider"></div>
+    <div class="newspaper-article">
+      <div class="newspaper-date">März 2026</div>
+      <div class="newspaper-headline">Atlassian entlässt jeden zehnten Mitarbeiter wegen KI</div>
+    </div>
+  </div>
+  <div class="newspaper-rule-thick"></div>
+</div>
+
+---
+
+<div class="newspaper">
+  <div class="newspaper-rule-thick"></div>
+  <div class="newspaper-articles">
+    <div class="newspaper-article">
+      <div class="newspaper-date">März 2026</div>
+      <div class="newspaper-headline">OpenAI will Belegschaft bis 2026 fast verdoppeln</div>
+    </div>
+  </div>
+  <div class="newspaper-rule-thick"></div>
+</div>
+
+---
+layout: two-cols-header
+---
+
+# Unser Job ändert sich
+
+<br/>
+
+Diese zwei Dinge müsen wir nun machen:
+
+::left::
+
+### 1. Mit AI arbeiten 🛠️
+
+Wir müssen **dranbleiben** und lernen, mit den neuen AI-Tools zu arbeiten – um produktiver zu werden und die Qualität unserer Arbeit zu steigern.
+
+::right::
+
+### 2. AI bauen 🚀
+
+Wir müssen lernen, **selbst AI-Applikationen zu entwickeln** – um bereit zu sein, wenn Prozesse im Unternehmen mithilfe von AI automatisiert und verbessert werden sollen.
+
 ---
 layout: two-cols-header
 ---
@@ -80,6 +139,81 @@ Ein Large Language Model (LLM) ist eine Art von künstlicher Intelligenz, die da
 </div>
 
 ---
+layout: two-cols-header
+---
+
+# Frameworks
+
+Open-Source-Frameworks für die Abstraktion von LLMs/APIs und die Entwicklung von AI Agenten.
+
+<br/>
+
+::left::
+
+### 🦜 LangChain
+* 🐍 Python, 🟨 JavaScript/TypeScript, ☕ Java (LangChain4j)
+* https://langchain.com/
+
+<br/>
+
+### 🌿 Spring AI
+* AI Integration ins Spring Framework
+* https://spring.io/projects/spring-ai
+
+::right::
+
+### 🤖 Agent Development Kit
+* Neues Framework von Google
+* 🐍 Python, 🔷 TypeScript, 🐹 Go, ☕ Java
+* https://adk.dev/
+
+<br/>
+
+---
+layout: two-cols-header
+---
+
+# 💡 TIPP: Keep it short
+
+**Je kleiner und präziser die Aufgabe, desto besser das Ergebnis.**
+
+::left::
+
+### ❌ Vermeiden
+
+```text
+"Schreib mir eine komplette Web-App mit Login, Dashboard 
+und REST-API"
+```
+
+🫠 Zu viel auf einmal
+
+- 🎯 LLM verliert den Fokus
+- 🧊 Ergebnis ist oberflächlich
+- 🔧 Schwer zu korrigieren
+
+::right::
+
+### ✅ Besser: Aufgabe aufteilen
+
+```text
+1. „Entwirf das Datenmodell für User + Rollen"
+2. „Erstelle den Login-Endpoint mit JWT"
+3. „Baue die Dashboard-Komponente"
+```
+
+🎯 Ein Task = ein klares Ziel
+
+- ✨ Ergebnis ist fokussiert und präzise
+- 🐛 Fehler sind sofort erkennbar
+- 🔄 Iteratives Arbeiten möglich
+
+::bottom::
+
+> 🧠 **Kleine Tasks → mehr Kontrolle → bessere Ergebnisse**
+
+
+---
 
 # Was ist ein AI Agent?
 
@@ -100,37 +234,22 @@ RAG, oder Retrieval-Augmented Generation, ist eine KI-Technik, die die Fähigkei
 layout: two-cols-header
 ---
 
-# 🦜 LangChain.js & LangGraph.js
+# 💡 TIPP: Prompts isoliert testbar machen
+
+Prompt-Engineering ist Experimentieren. Je schneller du einen einzelnen Prompt ausführen und bewerten kannst, desto schneller wird er gut. Ohne Testbarkeit debuggst du blind.
 
 ::left::
-
-### LangChain.js
-
-Ein Framework zum Erstellen von LLM-basierten Anwendungen.
-
-<div class="emoji-list">
-
-* 🧠 Mehrere LLM-Provider
-* 📦 Document und Vector Stores
-* 🛠️ Externe Tools und APIs
-
-</div>
+### 🗄️ Cache in der Entwicklung
+Gleicher Input → gleiche Response, kein API-Call. Spart Zeit & Tokens, macht Runs deterministisch.
 
 ::right::
-
-### LangGraph.js
-
-Ein Framework zum Erstellen komplexer, zustandsbehafteter AI-Agent-Workflows mit fortgeschrittener Orchestration.
-
-<div class="emoji-list">
-
-* 🗃️ **State Management** - Persistenter Speicher
-* 🔵 **Nodes** - Workflow-Komponenten
-* ➡️ **Edges** - Bedingte Logik
-
-</div>
+### 🎯 Prompt Integration Tests 
+Pro Prompt ein isolierter integration Test der mit dem Prompt das LLM aufruft.
 
 ::bottom::
+
+<img src="./images/test_prompts.svg" />
+
 
 ---
 layout: fact

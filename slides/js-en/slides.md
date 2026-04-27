@@ -219,6 +219,55 @@ and REST API"
 
 > 🧠 **Small tasks → more control → better results**
 
+---
+layout: two-cols-header
+---
+
+# Local Large Language Models #1
+
+::left::
+
+## ✅ Advantages
+* Privacy
+* Low cost
+* Independence
+* No internet required
+
+## 😭 Disadvantages
+* Slower
+* More hallucinations
+* Less reliable
+* Hardware costs
+
+::right::
+
+## 🛠️ Tools
+* https://ollama.com/
+* https://lmstudio.ai/
+* https://github.com/ggml-org/llama.cpp
+
+## 🧠 Models
+* Llama (Meta)
+* Qwen (Alibaba)
+* DeepSeek
+* Mistral
+* Gemma (Google)
+* Phi (Microsoft)
+
+---
+
+# Hardware Requirements for Q4 Models
+
+| Model Size | Model Memory | Mac (Unified Memory) | Intel/x86 (RAM + GPU VRAM)       |
+|------------|--------------|----------------------|----------------------------------|
+| 8B         | ~5 GB        | 16 GB                | 16 GB RAM + 8–12 GB VRAM         |
+| 13B        | ~8 GB        | 24 GB                | 16 GB RAM + 12 GB VRAM           |
+| 34B        | ~20 GB       | 36–48 GB             | 32 GB RAM + 24 GB VRAM (RTX 4090)|
+| 70B        | ~40 GB       | 64 GB                | 64 GB RAM + 2× 24 GB VRAM        |
+
+**8B, 13B, 32B, 70B**: B = Billion parameters — the number of learned weights in the model.
+
+**Q2, Q4, Q6, FP16**: Q2/Q4/Q6 indicate quantization with 2/4/6 bits per parameter; FP16 is the unquantized original using 16-bit floating-point numbers.
 
 ---
 

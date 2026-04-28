@@ -5,3 +5,4 @@ __pycache__
 .env
 .tossitin.config.mjs
 src/cache
+node_modules

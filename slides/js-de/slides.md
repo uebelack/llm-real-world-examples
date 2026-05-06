@@ -277,6 +277,43 @@ Ein AI Agent ist ein System, das ein Ziel übernimmt, ein Large Language Model (
 <img src="./images/agents.svg" style="padding-bottom: 20px;"/>
 
 ---
+layout: two-cols-header
+---
+
+# LLM Observability
+
+Was zur Hölle macht mein AI Agent?
+
+<br/>
+
+::left::
+
+### LangSmith · Kommerziell 
+ 
+- Sprachen: Python, JS/TS, Java
+- [smith.langchain.com](https://smith.langchain.com)
+
+<br/>
+
+### Langfuse · Open Source
+  
+- Sprachen: Python, JS/TS, Java*, OTLP
+- [langfuse.com](https://langfuse.com)
+
+<br/>
+
+### Helicone · Open Source
+ 
+- Sprachen: Alle (Proxy), Python, JS/TS
+- [helicone.ai](https://helicone.ai)
+
+
+::right::
+
+<img src="./images/observability.png" style="height: 80%; margin-left: 100px; margin-top: -80px;"/>
+
+
+---
 
 # Was ist RAG?
 

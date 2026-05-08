@@ -342,6 +342,34 @@ Pro Prompt ein isolierter integration Test der mit dem Prompt das LLM aufruft.
 
 <img src="./images/test_prompts.svg" />
 
+---
+
+# Fazit
+
+
+<br/>
+
+<div class="emoji-list">
+
+* 📏 **Kontext kurz halten** – jedes Token zählt
+* 🎯 **Kleine Tasks** – ein Prompt, ein klares Ziel
+* 🗄️ **Cache nutzen** – z.B. `diskcache` in der Entwicklung
+* 🔁 **Retries einbauen** – speziell bei Structured Output
+
+</div>
+
+<br/>
+
+<div class="emoji-list">
+
+* 🤷 **Vertraue nie blind** – LLM's machen nicht was du sagst
+* 🔍 **Ergebnisse verifizieren** – kontrolliere die Daten!
+* 🧪 **Integration Tests schreiben** – sonst debuggst du blind
+* 🚀 **Dranbleiben** – das Feld bewegt sich täglich
+
+</div>
+
+<img src="./images/conclusion.png" style="position: absolute; right: 10px; top: 50px; width: 30%;"/>
 
 ---
 layout: fact

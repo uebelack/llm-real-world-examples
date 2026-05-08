@@ -343,6 +343,35 @@ One isolated integration test per prompt that calls the LLM with that prompt.
 <img src="./images/test_prompts.svg" />
 
 ---
+
+# Conclusion
+
+
+<br/>
+
+<div class="emoji-list">
+
+* 📏 **Keep context short** – every token counts
+* 🎯 **Small tasks** – one prompt, one clear goal
+* 🗄️ **Use caching** – e.g. `diskcache` during development
+* 🔁 **Build in retries** – especially for structured output
+
+</div>
+
+<br/>
+
+<div class="emoji-list">
+
+* 🤷 **Never trust blindly** – LLMs don't do what you say
+* 🔍 **Verify results** – check the data!
+* 🧪 **Write integration tests** – otherwise you're debugging blind
+* 🚀 **Stay on it** – the field moves daily
+
+</div>
+
+<img src="./images/conclusion.png" style="position: absolute; right: 10px; top: 50px; width: 30%;"/>
+
+---
 layout: fact
 ---
 

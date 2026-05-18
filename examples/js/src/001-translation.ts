@@ -1,12 +1,11 @@
 import fs from "fs/promises";
-import { ChatOllama } from "@langchain/ollama";
+import { ChatAnthropic } from "@langchain/anthropic";
 
-const model = new ChatOllama({
-  model: "translategemma:12b",
-  think: false
+const model = new ChatAnthropic({
+  model: "claude-sonnet-4-6",
 });
 
-async function translate(text, language) {
+async function translate(text: string, language: string): Promise<string> {
   const response = await model.invoke([
     {
       role: "system",
@@ -18,23 +17,25 @@ async function translate(text, language) {
       content: text,
     },
   ]);
-  return response.content;
+  return response.content.toString();
 }
 
 async function updateTranslations() {
   const translations = {
     en: JSON.parse(await fs.readFile("public/locales/en.json", "utf8")),
     de: JSON.parse(await fs.readFile("public/locales/de.json", "utf8")),
-  }
+  };
 
   console.log(translations);
 
-  await Promise.all(Object.keys(translations.en).map(async (key) => {
-    const enTranslation = translations.en[key];
-    if (!translations.de[key]) {
+  await Promise.all(
+    Object.keys(translations.en).map(async (key) => {
+      const enTranslation = translations.en[key];
+      if (!translations.de[key]) {
         translations.de[key] = await translate(enTranslation, "de");
       }
-    }));
+    }),
+  );
 
   console.log(translations);
   // TODO: implement write to file

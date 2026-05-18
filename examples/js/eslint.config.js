@@ -3,6 +3,7 @@ import globals from "globals";
 import json from "@eslint/json";
 import markdown from "@eslint/markdown";
 import { defineConfig } from "eslint/config";
+import tseslint from 'typescript-eslint';
 
 export default defineConfig([
   {
@@ -14,6 +15,12 @@ export default defineConfig([
   {
     files: ["**/*.test.{js,mjs,cjs}"],
     languageOptions: { globals: globals.jest },
+  },
+  {
+    files: ["**/*.ts"],
+    plugins: { tseslint },
+    extends: ["tseslint/recommended"],
+    languageOptions: { globals: globals.node },
   },
   {
     files: ["**/*.json"],

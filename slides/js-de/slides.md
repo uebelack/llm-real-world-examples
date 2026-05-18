@@ -56,6 +56,11 @@ fonts:
       <div class="newspaper-date">März 2026</div>
       <div class="newspaper-headline">Atlassian entlässt jeden zehnten Mitarbeiter wegen KI</div>
     </div>
+    <div class="newspaper-divider"></div>
+    <div class="newspaper-article">
+      <div class="newspaper-date">Mai 2026</div>
+      <div class="newspaper-headline">Meta streicht 8.000 Stellen und forciert KI-Investitionen</div>
+    </div> 
   </div>
   <div class="newspaper-rule-thick"></div>
 </div>

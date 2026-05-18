@@ -55,6 +55,11 @@ fonts:
       <div class="newspaper-date">March 2026</div>
       <div class="newspaper-headline">Atlassian cuts one in ten employees due to AI</div>
     </div>
+    <div class="newspaper-divider"></div>
+    <div class="newspaper-article">
+      <div class="newspaper-date">Mai 2026</div>
+      <div class="newspaper-headline">Meta cuts 8,000 jobs and ramps up AI investments</div>
+    </div> 
   </div>
   <div class="newspaper-rule-thick"></div>
 </div>
@@ -173,6 +178,12 @@ Open-source frameworks for abstracting LLMs/APIs and developing AI agents.
 * TypeScript-first, by the team behind Gatsby (YC W25)
 * Built on top of the Vercel AI SDK
 * https://mastra.ai/
+
+---
+layout: fact
+---
+
+# 🧑‍💻 Code
 
 ---
 layout: two-cols-header

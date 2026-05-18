@@ -125,7 +125,7 @@ layout: two-cols-header
 
 * 💬 Git Commit-Messages generieren
 * 🗼 Lokalisierung endlich automatisieren
-* 📬 E-Mail-Support mit RAG automatisieren
+* 📬 Mail-Support mit RAG automatisieren
 
 </div>
 
@@ -178,6 +178,12 @@ Open-Source-Frameworks für die Abstraktion von LLMs/APIs und die Entwicklung vo
 * TypeScript-first, vom Team hinter Gatsby (YC W25)
 * Baut auf dem Vercel AI SDK auf
 * https://mastra.ai/
+
+---
+layout: fact
+---
+
+# 🧑‍💻 Code
 
 ---
 layout: two-cols-header

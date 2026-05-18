@@ -1,11 +1,26 @@
 # Nachrichten
 
-- Schlagzeilen rund um AI verunsichert
--
+- Schlagzeilen rund um AI verunsichern
+- OpenAI verdoppelt Belegschaft
 
-# LLM
+# Job ändert sich
 
-- Translations
+- AI Tools einsetzen
+- AI Tools erstellen/Prozesse mit AI automatisieren/AI in vorhandene Applikationen einbauen
+
+# Was ist ein LLM?
+
+- Will nicht im Detail erklären, weiss selber nicht wie das funktioniert
+- Wenn Training abgeschlossen ist es statisch und kann nicht mehr dazu lernen
+- Man gibt dem Model einen Input und bekommt einen Output, fertig
+- Beispiel Chat: alle vorherigen Nachrichten werden immer wieder mitgeschickt
+
+# Frameworks
+
+- APIs können natürlich direkt genutzt werden
+- Abstraction, vereinfacht den Wechsel zwischen Anbietern
+- Bieten neben Abstraktion zur API auch die Implementierung/Abstraktion anderer Patterns wie Agents oder RAG
+- Nutze Langchain das bekannteste
 
 # AI Agents
 

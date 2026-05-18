@@ -114,7 +114,8 @@ layout: two-cols-header
 
 <div class="emoji-list" style="padding-top: 10px; padding-bottom: 30px;">
 
-* 🧠 Was sind LLMs, AI Agents und RAG?
+* 🧠 Was sind LLMs, AI Agents
+* 🗄️ Retrieval-Augmented Generation (RAG)
 * ☁️ Cloud vs. lokale Modelle
 
 </div>
@@ -123,8 +124,8 @@ layout: two-cols-header
 
 <div class="emoji-list" style="padding-top: 10px;">
 
-* 💬 Git Commit-Messages generieren
 * 🗼 Lokalisierung endlich automatisieren
+* 💬 Git Commit-Messages generieren
 * 📬 Mail-Support mit RAG automatisieren
 
 </div>

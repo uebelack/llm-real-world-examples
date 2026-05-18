@@ -27,3 +27,11 @@
 - Kotzrein: Result: https://github.com/uebelack/rpi-frami
 - Tools: https://docs.langchain.com/oss/javascript/langchain/tools
 - Was genau ist passiert? -> https://eu.smith.langchain.com/
+
+# Prompts
+
+- Beispiel Clode Code, source code wurde geleaked sehr gut um zu sehen wie anthropic probleme löst
+  -> Errorhandling, Context compacting,
+  -> Between sessions, Claude Code spawns a forked subagent whose sole job is memory consolidation
+  https://github.com/Piebald-AI/claude-code-system-prompts
+  https://www.dbreunig.com/2026/04/04/how-claude-code-builds-a-system-prompt.html

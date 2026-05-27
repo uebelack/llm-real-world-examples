@@ -410,3 +410,10 @@ layout: fact
 ---
 
 # Vielen Dank!
+<br/>
+
+<div class="center">
+<img src="./images/qr_repo.svg" style="width: 300px"/>
+</div>
+
+https://github.com/uebelack/llm-real-world-examples

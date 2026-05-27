@@ -2,17 +2,19 @@
 
 ### Real-World Examples from a Developer's Daily Work
 
+<img src="https://github.com/uebelack/llm-real-world-examples/blob/main/slides/js-de/images/topics.png?raw=true" style="width: 500px;"/>
+
 Slides for my talk about practical use of LLMs, AI Agents, and Retrieval-Augmented Generation (RAG) in everyday development work.
 
 ## Versions
 
 The talk is available in different language/framework combinations:
 
-| Language | Framework  | Link                                                        |
-| -------- | ---------- | ----------------------------------------------------------- |
-| English  | JavaScript | https://llm-real-world-examples.vercel.app/                 |
-| German   | JavaScript | https://llm-real-world-examples-js-de.vercel.app/           |
-| German   | Java       | https://llm-real-world-examples-java-de.vercel.app/         |
+| Language | Framework  | Link                                                |
+| -------- | ---------- | --------------------------------------------------- |
+| English  | JavaScript | https://llm-real-world-examples.vercel.app/         |
+| German   | JavaScript | https://llm-real-world-examples-js-de.vercel.app/   |
+| German   | Java       | https://llm-real-world-examples-java-de.vercel.app/ |
 
 ## Project Structure
 

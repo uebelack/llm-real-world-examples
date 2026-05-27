@@ -86,7 +86,7 @@ layout: two-cols-header
 
 <br/>
 
-Diese zwei Dinge müsen wir nun machen:
+Diese zwei Dinge müssen wir nun machen:
 
 ::left::
 
@@ -99,6 +99,34 @@ Wir müssen **dranbleiben** und lernen, mit den neuen AI-Tools zu arbeiten – u
 ### 2. AI bauen 🚀
 
 Wir müssen lernen, **selbst AI-Applikationen zu entwickeln** – um bereit zu sein, wenn Prozesse im Unternehmen mithilfe von AI automatisiert und verbessert werden sollen.
+
+---
+layout: two-cols-header
+---
+
+::left::
+
+# Was können wir mit LLM's machen?
+
+<div style="height: 3px;"/>
+
+🧐 **Text** (Bild/Video/Sprache) **analysieren**
+✍️ **Text** (Bild/Video/Sprache) **generieren**
+
+<div style="height: 3px;"/>
+
+### Beispiele
+<div style="height: 10px;"/>
+
+* Kundenkontakt vereinfachen (Tickets, Antworten, Übersetzung)
+* Wissen erschliessen (RAG, semantische Suche, Meeting-Notizen)
+* Prozesse automatisieren (Dokumente extrahieren, Entscheide vorbereiten)
+* Inhalte & Daten generieren (Reports, Texte, Bilder)
+
+
+::right::
+
+<img src="./images/ceos.png" style="height: 76%; margin-left: 100px;"/>
 
 ---
 layout: two-cols-header

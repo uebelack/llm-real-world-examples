@@ -86,7 +86,7 @@ layout: two-cols-header
 
 <br/>
 
-Diese zwei Dinge müsen wir nun machen:
+Diese zwei Dinge müssen wir nun machen:
 
 ::left::
 
@@ -99,6 +99,34 @@ Wir müssen **dranbleiben** und lernen, mit den neuen AI-Tools zu arbeiten – u
 ### 2. AI bauen 🚀
 
 Wir müssen lernen, **selbst AI-Applikationen zu entwickeln** – um bereit zu sein, wenn Prozesse im Unternehmen mithilfe von AI automatisiert und verbessert werden sollen.
+
+---
+layout: two-cols-header
+---
+
+::left::
+
+# Was können wir mit LLM's machen?
+
+<div style="height: 3px;"/>
+
+🧐 **Text** (Bild/Video/Sprache) **analysieren**
+✍️ **Text** (Bild/Video/Sprache) **generieren**
+
+<div style="height: 3px;"/>
+
+### Beispiele
+<div style="height: 10px;"/>
+
+* Kundenkontakt vereinfachen (Tickets, Antworten, Übersetzung)
+* Wissen erschliessen (RAG, semantische Suche, Meeting-Notizen)
+* Prozesse automatisieren (Dokumente extrahieren, Entscheide vorbereiten)
+* Inhalte & Daten generieren (Reports, Texte, Bilder)
+
+
+::right::
+
+<img src="./images/ceos.png" style="height: 76%; margin-left: 100px;"/>
 
 ---
 layout: two-cols-header
@@ -124,7 +152,7 @@ layout: two-cols-header
 
 <div class="emoji-list" style="padding-top: 10px;">
 
-* 🗼 Lokalisierung endlich automatisieren
+* 🗼 Lokalisierung automatisieren
 * 💬 Git Commit-Messages generieren
 * 📬 Mail-Support mit RAG automatisieren
 
@@ -190,49 +218,6 @@ layout: fact
 layout: two-cols-header
 ---
 
-# 💡 TIPP: Keep it short
-
-**Je kleiner und präziser die Aufgabe, desto besser das Ergebnis.**
-
-::left::
-
-### ❌ Vermeiden
-
-```text
-"Schreib mir eine komplette Web-App mit Login, Dashboard 
-und REST-API"
-```
-
-🫠 Zu viel auf einmal
-
-- 🎯 LLM verliert den Fokus
-- 🧊 Ergebnis ist oberflächlich
-- 🔧 Schwer zu korrigieren
-
-::right::
-
-### ✅ Besser: Aufgabe aufteilen
-
-```text
-1. „Entwirf das Datenmodell für User + Rollen"
-2. „Erstelle den Login-Endpoint mit JWT"
-3. „Baue die Dashboard-Komponente"
-```
-
-🎯 Ein Task = ein klares Ziel
-
-- ✨ Ergebnis ist fokussiert und präzise
-- 🐛 Fehler sind sofort erkennbar
-- 🔄 Iteratives Arbeiten möglich
-
-::bottom::
-
-> 🧠 **Kleine Tasks → mehr Kontrolle → bessere Ergebnisse**
-
----
-layout: two-cols-header
----
-
 # Lokale Large Language Models
 
 ::left::
@@ -279,7 +264,6 @@ layout: two-cols-header
 
 **Q2, Q4, Q6, FP16**: Q2/Q4/Q6 stehen für die Quantisierung mit 2/4/6 Bits pro Parameter; FP16 ist das unquantisierte Original mit 16-Bit-Fliesskommazahlen.
 
-
 ---
 
 # Was ist ein AI Agent?
@@ -287,6 +271,12 @@ layout: two-cols-header
 Ein AI Agent ist ein System, das ein Ziel übernimmt, ein Large Language Model (LLM) und Tools verwendet und so lange iteriert, bis das Ziel erreicht ist.
 
 <img src="./images/agents.svg" style="padding-bottom: 20px;"/>
+
+---
+layout: fact
+---
+
+# 🧑‍💻 Code
 
 ---
 layout: two-cols-header
@@ -333,6 +323,49 @@ RAG, oder Retrieval-Augmented Generation, ist eine KI-Technik, die die Fähigkei
 
 <img src="./images/rag.svg" style="padding-bottom: 20px;"/>
 
+
+---
+layout: two-cols-header
+---
+
+# 💡 TIPP: Keep it short
+
+**Je kleiner und präziser die Aufgabe, desto besser das Ergebnis.**
+
+::left::
+
+### ❌ Vermeiden
+
+```text
+"Schreib mir eine komplette Web-App mit Login, Dashboard 
+und REST-API"
+```
+
+🫠 Zu viel auf einmal
+
+- 🎯 LLM verliert den Fokus
+- 🧊 Ergebnis ist oberflächlich
+- 🔧 Schwer zu korrigieren
+
+::right::
+
+### ✅ Besser: Aufgabe aufteilen
+
+```text
+1. „Entwirf das Datenmodell für User + Rollen"
+2. „Erstelle den Login-Endpoint mit JWT"
+3. „Baue die Dashboard-Komponente"
+```
+
+🎯 Ein Task = ein klares Ziel
+
+- ✨ Ergebnis ist fokussiert und präzise
+- 🐛 Fehler sind sofort erkennbar
+- 🔄 Iteratives Arbeiten möglich
+
+::bottom::
+
+> 🧠 **Kleine Tasks → mehr Kontrolle → bessere Ergebnisse**
 
 ---
 layout: two-cols-header

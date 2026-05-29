@@ -69,3 +69,31 @@ cd slides/<variant>   # e.g. slides/js-en
 pnpm install
 pnpm dev
 ```
+
+## Links
+
+### My Example Tools
+
+- **Babeli**: https://github.com/uebelack/babeli
+- **Babeli4J**: https://github.com/uebelack/babeli4j
+- **Tossitin**: https://github.com/uebelack/tossitin
+
+### AI Frameworks
+
+- **LangChain**: https://langchain.com/ - AI framework for Python, JS/TS, and Java
+- **Vercel AI SDK**: https://ai-sdk.dev/ - TypeScript-first AI SDK with streaming and structured output
+- **Google Agent Development Kit**: https://adk.dev/ - Multi-language AI agent framework by Google
+- **mastra**: https://mastra.ai/ - TypeScript-first AI framework, built on Vercel AI SDK
+- **Spring AI**: https://spring.io/projects/spring-ai - AI integration for the Spring Framework
+
+### Local LLM Tools
+
+- **Ollama**: https://ollama.com/ - Run large language models locally
+- **LM Studio**: https://lmstudio.ai/ - Desktop app for running local LLMs
+- **llama.cpp**: https://github.com/ggml-org/llama.cpp - C/C++ LLM inference engine
+
+### LLM Observability
+
+- **LangSmith**: https://smith.langchain.com - Commercial LLM tracing and evaluation platform
+- **Langfuse**: https://langfuse.com - Open source LLM observability
+- **Helicone**: https://helicone.ai - Open source LLM monitoring and analytics

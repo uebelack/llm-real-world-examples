@@ -30,6 +30,7 @@
 
 # Prompts
 
+- Viel was das LLM nicht machen soll
 - Beispiel Clode Code, source code wurde geleaked sehr gut um zu sehen wie anthropic probleme löst
   -> Errorhandling, Context compacting,
   -> Between sessions, Claude Code spawns a forked subagent whose sole job is memory consolidation

@@ -2,8 +2,7 @@
   "name": "llm-real-world-examples",
   "packageManager": "yarn@4.14.1",
   "author": "David Übelacker",
-  "license": "MIT",
-  "type": "module",
+  "license": "MIT",  
   "scripts": {
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",

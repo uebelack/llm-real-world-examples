@@ -36,48 +36,6 @@ fonts:
   </div>
 </div>
 
-
----
-
-<div class="newspaper">
-  <div class="newspaper-rule-thick"></div>
-  <div class="newspaper-articles">
-    <div class="newspaper-article">
-      <div class="newspaper-date">September 2025</div>
-      <div class="newspaper-headline">Salesforce entlässt 4.000 Mitarbeiter und ersetzt sie durch KI-Agenten</div>
-    </div>
-    <div class="newspaper-divider"></div>
-    <div class="newspaper-article">
-      <div class="newspaper-date">Januar 2026</div>
-      <div class="newspaper-headline">Anthropic-CEO prognostiziert: KI-Modelle ersetzen Softwareentwickler in 6–12 Monaten</div>
-    </div>
-    <div class="newspaper-divider"></div>
-    <div class="newspaper-article">
-      <div class="newspaper-date">März 2026</div>
-      <div class="newspaper-headline">Atlassian entlässt jeden zehnten Mitarbeiter wegen KI</div>
-    </div>
-    <div class="newspaper-divider"></div>
-    <div class="newspaper-article">
-      <div class="newspaper-date">Mai 2026</div>
-      <div class="newspaper-headline">Meta streicht 8.000 Stellen und forciert KI-Investitionen</div>
-    </div> 
-  </div>
-  <div class="newspaper-rule-thick"></div>
-</div>
-
----
-
-<div class="newspaper">
-  <div class="newspaper-rule-thick"></div>
-  <div class="newspaper-articles">
-    <div class="newspaper-article">
-      <div class="newspaper-date">März 2026</div>
-      <div class="newspaper-headline">OpenAI will Belegschaft bis 2026 fast verdoppeln</div>
-    </div>
-  </div>
-  <div class="newspaper-rule-thick"></div>
-</div>
-
 ---
 layout: two-cols-header
 ---
@@ -173,6 +131,12 @@ Ein Large Language Model (LLM) ist eine Art von künstlicher Intelligenz, die da
 </div>
 
 ---
+
+# 🗼 Lokalisierung automatisieren
+
+<img src="./images/localization.png" />
+
+---
 layout: two-cols-header
 ---
 
@@ -209,12 +173,6 @@ Open-Source-Frameworks für die Abstraktion von LLMs/APIs und die Entwicklung vo
 * https://mastra.ai/
 
 ---
-layout: fact
----
-
-# 🧑‍💻 Code
-
----
 layout: two-cols-header
 ---
 
@@ -248,81 +206,6 @@ layout: two-cols-header
 * Mistral
 * Gemma (Google)
 * Phi (Microsoft)
-
----
-
-# Hardware-Anforderungen für Q4-Modelle
-
-| Modell-Grösse | Modell-Speicher | Mac (Unified Memory) | Intel/x86 (RAM + GPU VRAM)        |
-|---------------|-----------------|----------------------|-----------------------------------|
-| 8B            | ~5 GB           | 16 GB                | 16 GB RAM + 8–12 GB VRAM          |
-| 13B           | ~8 GB           | 24 GB                | 16 GB RAM + 12 GB VRAM            |
-| 34B           | ~20 GB          | 36–48 GB             | 32 GB RAM + 24 GB VRAM (RTX 4090) |
-| 70B           | ~40 GB          | 64 GB                | 64 GB RAM + 2× 24 GB VRAM         |
-
-**8B, 13B, 32B, 70B**: B = Billion (Milliarde) Parameter — Anzahl der gelernten Gewichte im Modell.
-
-**Q2, Q4, Q6, FP16**: Q2/Q4/Q6 stehen für die Quantisierung mit 2/4/6 Bits pro Parameter; FP16 ist das unquantisierte Original mit 16-Bit-Fliesskommazahlen.
-
----
-
-# Was ist ein AI Agent?
-
-Ein AI Agent ist ein System, das ein Ziel übernimmt, ein Large Language Model (LLM) und Tools verwendet und so lange iteriert, bis das Ziel erreicht ist.
-
-<img src="./images/agents.svg" style="padding-bottom: 20px;"/>
-
----
-layout: fact
----
-
-# 🧑‍💻 Code
-
----
-layout: two-cols-header
----
-
-# LLM Observability
-
-Was zur Hölle macht mein AI Agent?
-
-<br/>
-
-::left::
-
-### LangSmith · Kommerziell 
- 
-- Sprachen: Python, JS/TS, Java
-- [smith.langchain.com](https://smith.langchain.com)
-
-<br/>
-
-### Langfuse · Open Source
-  
-- Sprachen: Python, JS/TS, Java*, OTLP
-- [langfuse.com](https://langfuse.com)
-
-<br/>
-
-### Helicone · Open Source
- 
-- Sprachen: Alle (Proxy), Python, JS/TS
-- [helicone.ai](https://helicone.ai)
-
-
-::right::
-
-<img src="./images/observability.png" style="height: 80%; margin-left: 100px; margin-top: -80px;"/>
-
-
----
-
-# Was ist RAG?
-
-RAG, oder Retrieval-Augmented Generation, ist eine KI-Technik, die die Fähigkeit eines Large Language Models zur Textgenerierung mit einer externen Wissensbasis, wie einer Datenbank oder einem Dokumentenset, kombiniert, um genauere und relevantere Antworten zu erzeugen.
-
-<img src="./images/rag.svg" style="padding-bottom: 20px;"/>
-
 
 ---
 layout: two-cols-header
@@ -368,6 +251,64 @@ und REST-API"
 > 🧠 **Kleine Tasks → mehr Kontrolle → bessere Ergebnisse**
 
 ---
+
+# Was ist ein AI Agent?
+
+Ein AI Agent ist ein System, das ein Ziel übernimmt, ein Large Language Model (LLM) und Tools verwendet und so lange iteriert, bis das Ziel erreicht ist.
+
+<img src="./images/agents.svg" style="padding-bottom: 20px;"/>
+
+---
+layout: two-cols-header
+---
+
+# 💬 Git Commit-Messages generieren
+
+::left::
+
+<img src="./images/kotzrein1.png" />
+
+::right::
+
+<img src="./images/kotzrein2.png" />
+
+---
+layout: two-cols-header
+---
+
+# LLM Observability
+
+Was zur Hölle macht mein AI Agent?
+
+<br/>
+
+::left::
+
+### LangSmith · Kommerziell 
+ 
+- Sprachen: Python, JS/TS, Java
+- [smith.langchain.com](https://smith.langchain.com)
+
+<br/>
+
+### Langfuse · Open Source
+  
+- Sprachen: Python, JS/TS, Java*, OTLP
+- [langfuse.com](https://langfuse.com)
+
+<br/>
+
+### Helicone · Open Source
+ 
+- Sprachen: Alle (Proxy), Python, JS/TS
+- [helicone.ai](https://helicone.ai)
+
+
+::right::
+
+<img src="./images/observability.png" style="height: 80%; margin-left: 100px; margin-top: -80px;"/>
+
+---
 layout: two-cols-header
 ---
 
@@ -389,8 +330,21 @@ Pro Prompt ein isolierter integration Test der mit dem Prompt das LLM aufruft.
 
 ---
 
-# Fazit
+# Was ist RAG?
 
+RAG, oder Retrieval-Augmented Generation, ist eine KI-Technik, die die Fähigkeit eines Large Language Models zur Textgenerierung mit einer externen Wissensbasis, wie einer Datenbank oder einem Dokumentenset, kombiniert, um genauere und relevantere Antworten zu erzeugen.
+
+<img src="./images/rag.svg" style="padding-bottom: 20px;"/>
+
+---
+
+# 📬 Mail-Support mit RAG automatisieren
+
+<img src="./images/support.png" />
+
+---
+
+# Fazit
 
 <br/>
 

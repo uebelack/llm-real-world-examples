@@ -6,3 +6,4 @@ __pycache__
 .tossitin.config.mjs
 src/cache
 node_modules
+lancedb.db

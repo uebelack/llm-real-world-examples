@@ -13,7 +13,7 @@ const executeCommand = tool(
         result = result.slice(0, 10000) + "\n\n...truncated...";
       }
 
-      console.log(`Command output: ${result}`);
+      //console.log(`Command output: ${result}`);
 
       return result;
     } catch (error) {

@@ -9,8 +9,8 @@ async function translate(text: string, language: string): Promise<string> {
   const response = await model.invoke([
     {
       role: "system",
-      content: `You are a helpful assistant that translates text from English to German.
-      Translate the given text to German. Return only the translated text, no other text.`,
+      content: `You are a helpful assistant that translates text from English to ${language}.
+      Translate the given text to ${language}. Return only the translated text, no other text.`,
     },
     {
       role: "user",
@@ -25,8 +25,6 @@ async function updateTranslations() {
     en: JSON.parse(await fs.readFile("public/locales/en.json", "utf8")),
     de: JSON.parse(await fs.readFile("public/locales/de.json", "utf8")),
   };
-
-  console.log(translations);
 
   await Promise.all(
     Object.keys(translations.en).map(async (key) => {

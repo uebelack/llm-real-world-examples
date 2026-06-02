@@ -1,12 +1,23 @@
-# Nachrichten
+# KI ändert unsren Job
 
-- Schlagzeilen rund um AI verunsichern
-- OpenAI verdoppelt Belegschaft
+- Wer nutzt von euch täglich Coding Assistenten wie Claude Code, Github Copilot, Cursor etc.?
+- Wer hat schon LLM in Software eingebunden? LLM gesetützte Software entwickelt?
 
-# Job ändert sich
+# Was können wir mit LLM's machen?
 
-- AI Tools einsetzen
-- AI Tools erstellen/Prozesse mit AI automatisieren/AI in vorhandene Applikationen einbauen
+- Seit OpenAI vor mehr als 3 Jahren veröffentlich hat, hat sich viel geändert
+- Ich bin begeistert, was wir mit LLM's machen können und wie es unsere Arbeit verändert hat
+- Gleichzeitig find ich den Hype darum insbesondere in den USA übertrieben
+- Aus meiner Sicht sind die Erwartungen so hoch, dass viele davon mit LLM nicht erfüllt werden können
+- Aber wir können nun Sachen machen, die wir früher nicht machen konnten
+- Wir können mit unstrukturierten Daten arbeiten, Text analysieren und Text generieren
+- z.B. Automatisch auf Mails antworten
+- Unstrukturierte Daten einfach strukturieren
+
+# Heutige Themen
+
+- Seitdem die API von OpenAI zur Verfügung steht, beschäftige ich mit dem Thema, wie LLM für eigene Software nutzen kann
+- Probiere vieles aus und so bin ich zur Idee von diesem Vortrag gekommen. Meine Idee war es selber LLM gestützte Tools für meinen Alltag zu bauen um mir die Arbeit zu erleichtern. Davon zeige Ich Euch Heute die drei Beispiele.
 
 # Was ist ein LLM?
 

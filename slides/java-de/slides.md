@@ -8,7 +8,7 @@ fonts:
   mono: Fira Code
 ---
 
-# LLMs, AI Agents und RAG
+# LLMs, KI-Agenten und RAG
 ### Praxisbeispiele aus dem Entwickleralltag
 
 <div class="absolute bottom-10">
@@ -90,15 +90,15 @@ Diese zwei Dinge müssen wir nun machen:
 
 ::left::
 
-### 1. Mit AI arbeiten 🛠️
+### 1. Mit KI arbeiten 🛠️
 
-Wir müssen **dranbleiben** und lernen, mit den neuen AI-Tools zu arbeiten – um produktiver zu werden und die Qualität unserer Arbeit zu steigern.
+Wir müssen **dranbleiben** und lernen, mit den neuen KI-Tools zu arbeiten – um produktiver zu werden und die Qualität unserer Arbeit zu steigern.
 
 ::right::
 
-### 2. AI bauen 🚀
+### 2. KI bauen 🚀
 
-Wir müssen lernen, **selbst AI-Applikationen zu entwickeln** – um bereit zu sein, wenn Prozesse im Unternehmen mithilfe von AI automatisiert und verbessert werden sollen.
+Wir müssen lernen, **selbst KI-Applikationen zu entwickeln** – um bereit zu sein, wenn Prozesse im Unternehmen mithilfe von KI automatisiert und verbessert werden sollen.
 
 ---
 layout: two-cols-header
@@ -142,7 +142,7 @@ layout: two-cols-header
 
 <div class="emoji-list" style="padding-top: 10px; padding-bottom: 30px;">
 
-* 🧠 Was sind LLMs, AI Agents und RAG?
+* 🧠 Was sind LLMs, KI-Agenten und RAG?
 * ☁️ Cloud vs. lokale Modelle
 
 </div>
@@ -177,7 +177,7 @@ layout: two-cols-header
 
 # Frameworks
 
-Open-Source-Frameworks für die Abstraktion von LLMs/APIs und die Entwicklung von AI Agenten.
+Open-Source-Frameworks für die Abstraktion von LLMs/APIs und die Entwicklung von KI-Agenten.
 
 <br/>
 
@@ -190,7 +190,7 @@ Open-Source-Frameworks für die Abstraktion von LLMs/APIs und die Entwicklung vo
 <br/>
 
 ### 🌿 Spring AI
-* AI Integration ins Spring Framework
+* KI-Integration ins Spring Framework
 * https://spring.io/projects/spring-ai
 
 ::right::
@@ -303,9 +303,9 @@ layout: two-cols-header
 
 ---
 
-# Was ist ein AI Agent?
+# Was ist ein KI-Agent?
 
-Ein AI Agent ist ein System, das ein Ziel übernimmt, ein Large Language Model (LLM) und Tools verwendet und so lange iteriert, bis das Ziel erreicht ist.
+Ein KI-Agent ist ein System, das ein Ziel übernimmt, ein Large Language Model (LLM) und Tools verwendet und so lange iteriert, bis das Ziel erreicht ist.
 
 <img src="./images/agents.svg" style="padding-bottom: 20px;"/>
 
@@ -315,7 +315,7 @@ layout: two-cols-header
 
 # LLM Observability
 
-Was zur Hölle macht mein AI Agent?
+Was zur Hölle macht mein KI-Agent?
 
 <br/>
 

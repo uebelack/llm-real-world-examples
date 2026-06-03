@@ -18,7 +18,7 @@ async function addDocument(
   data: Document[],
   index: number = 0,
 ): Promise<void> {
-  const filePath = `../../support_mails/${files[index]}`;
+  const filePath = `../support_mails/${files[index]}`;
   console.log(`Loading document: ${filePath}`);
   const content = fs.readFileSync(filePath, "utf8");
   const vector = await embeddings.embedQuery(content);
@@ -29,7 +29,7 @@ async function addDocument(
 }
 
 async function populateData(): Promise<lancedb.Table> {
-  const files = fs.readdirSync("../../support_mails");
+  const files = fs.readdirSync("../support_mails");
   const data: Document[] = [];
   await addDocument(files, data);
   console.log(`Loaded ${data.length} documents`);

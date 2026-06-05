@@ -42,8 +42,7 @@ layout: two-cols-header
 
 # AI is changing our job
 
-<br/>
-Two things we need to do right now:
+We need to do these two things:
 
 ::left::
 
@@ -51,12 +50,14 @@ Two things we need to do right now:
 
 We need to **stay on top of things** and learn to work with the new AI tools — to become more productive and improve the quality of our work.
 
-::right::
-
 ## 2. Building with AI 🚀
 
 We need to learn to **develop AI applications ourselves** — to be ready when processes in the company are to be automated and improved with the help of AI.
 
+
+::right::
+
+<img src="./images/job.png" style="position: absolute; top: 55px; right: 55px; height: 80%;"/>
 
 ---
 layout: two-cols-header

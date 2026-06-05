@@ -6,13 +6,10 @@ Slides for my talk about practical use of LLMs, AI Agents, and Retrieval-Augment
 
 ## Versions
 
-The talk is available in different language/framework combinations:
+The talk is available in english and german:
 
-| Language | Framework  | Link                                                |
-| -------- | ---------- | --------------------------------------------------- |
-| English  | JavaScript | https://llm-real-world-examples.vercel.app/         |
-| German   | JavaScript | https://llm-real-world-examples-js-de.vercel.app/   |
-| German   | Java       | https://llm-real-world-examples-java-de.vercel.app/ |
+- English: https://llm-real-world-examples.vercel.app/
+- German: https://llm-real-world-examples-de.vercel.app/1
 
 ## Project Structure
 

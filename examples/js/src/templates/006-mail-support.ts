@@ -13,8 +13,12 @@ const model = new ChatAnthropic({
 async function answerSupportMail(subject: string, message: string) {
   const response = await model.invoke([
     {
+      role: "system",
+      content: `You are a helpful assistant that answers support mails. Please create a response for the given mail.`,
+    },
+    {
       role: "user",
-      content: `Answer the support mail with the subject "${subject}" and the message "${message}".`,
+      content: `Subject: ${subject}\nMessage: ${message}`,
     },
   ]);
   console.log(response.subject);

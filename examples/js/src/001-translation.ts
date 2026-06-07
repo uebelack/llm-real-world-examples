@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import { ChatAnthropic } from "@langchain/anthropic";
 
 const model = new ChatAnthropic({
-  model: "claude-sonnet-4-6",
+  model: "claude-opus-4-8",
 });
 
 async function translate(text: string, language: string): Promise<string> {

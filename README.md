@@ -16,6 +16,7 @@ The talk is available in english and german:
 ```
 examples/
   js/         # TypeScript examples (LangChain)
+  python/     # Python examples (LangChain)
 slides/
   js-en/      # English / JavaScript
   js-de/      # German / JavaScript
@@ -23,6 +24,8 @@ slides/
 ```
 
 ## Examples
+
+### TypeScript
 
 Runnable TypeScript demos live in [`examples/js`](examples/js). They use [LangChain](https://js.langchain.com/) and are meant to be run from that directory (locale paths are relative to it).
 
@@ -34,13 +37,6 @@ Runnable TypeScript demos live in [`examples/js`](examples/js). They use [LangCh
 | `src/004-weather-ollama.ts`     | Same agent pattern with Ollama                                   |
 | `src/005-git-commit-message.ts` | Agent sketch for commit messages from a diff                     |
 
-### Prerequisites
-
-- **Claude examples** (`001`, `003`, `005`): set `ANTHROPIC_API_KEY` in your environment.
-- **Ollama examples** (`002`, `004`): [Ollama](https://ollama.com/) running locally with the models referenced in each file (`translategemma:12b`, `qwen3.5`, etc.).
-
-### Run
-
 ```bash
 cd examples/js
 bun install   # or: yarn install
@@ -50,12 +46,35 @@ bun src/001-translation.ts
 bun --watch src/001-translation.ts
 ```
 
-Lint and format:
+### Python
+
+Equivalent Python demos live in [`examples/python`](examples/python). They use [LangChain](https://python.langchain.com/) and are meant to be run from that directory.
+
+| Script                                | Topic                                                            |
+| ------------------------------------- | ---------------------------------------------------------------- |
+| `src/001_translation.py`              | Translate missing keys in locale JSON via Claude (Anthropic API) |
+| `src/002_translation_ollama.py`       | Same flow with a local Ollama model                              |
+| `src/003_weather.py`                  | Agent with a weather tool (Claude + Open-Meteo)                  |
+| `src/004_weather_ollama.py`           | Same agent pattern with Ollama                                   |
+| `src/005_git_commit_message.py`       | Agent sketch for commit messages from a diff                     |
+| `src/006_mail_support.py`             | Support mail response with RAG (LanceDB + Ollama embeddings)     |
+| `src/007_mail_support_populate_db.py` | Populate LanceDB with support mail embeddings                    |
 
 ```bash
-yarn lint:check
-yarn format:check
+cd examples/python
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# Run from examples/python (not from src/)
+python src/001_translation.py
 ```
+
+### Prerequisites
+
+- **Claude examples** (`001`, `003`, `005`, `006`): set `ANTHROPIC_API_KEY` in your environment.
+- **Ollama examples** (`002`, `004`): [Ollama](https://ollama.com/) running locally with the model `qwen3.5:latest`.
+- **RAG examples** (`006`, `007`): Ollama with `qwen3-embedding:0.6b` for embeddings. Run `007` first to populate the database.
 
 ## Slides
 

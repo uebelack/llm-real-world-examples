@@ -3,7 +3,7 @@ import { ChatAnthropic } from "@langchain/anthropic";
 import { createAgent } from "langchain";
 
 const model = new ChatAnthropic({
-  model: "claude-sonnet-4-6",
+  model: "claude-opus-4-8",
 });
 
 const weatherTool = tool(

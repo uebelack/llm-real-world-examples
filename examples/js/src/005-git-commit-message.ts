@@ -3,7 +3,7 @@ import { ChatAnthropic } from "@langchain/anthropic";
 import executeCommand from "./tools/executeCommand";
 
 const model = new ChatAnthropic({
-  model: "claude-sonnet-4-6",
+  model: "claude-opus-4-8",
 });
 
 const agent = createAgent({

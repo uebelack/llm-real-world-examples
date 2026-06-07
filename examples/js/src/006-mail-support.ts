@@ -10,7 +10,7 @@ const mailSchema = z.object({
 });
 
 const model = new ChatAnthropic({
-  model: "claude-sonnet-4-6",
+  model: "claude-opus-4-8",
 }).withStructuredOutput(mailSchema);
 
 const embeddings = new OllamaEmbeddings({

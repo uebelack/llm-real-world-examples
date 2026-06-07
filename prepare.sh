@@ -17,7 +17,4 @@ cd ../tossitin
 cursor .
 
 open https://eu.smith.langchain.com/
-
-cd ../llm-real-world-examples/slides/js-de
-
-pnpm dev
+open https://llm-real-world-examples-de.vercel.app/

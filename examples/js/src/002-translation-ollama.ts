@@ -2,17 +2,16 @@ import fs from "fs/promises";
 import { ChatOllama } from "@langchain/ollama";
 
 const model = new ChatOllama({
-  model: "translategemma:12b",
+  model: "qwen3.5:latest",
   think: false,
 });
 
 async function translate(text: string, language: string): Promise<string> {
-  console.log(`Translating ${text} to ${language}`);
   const response = await model.invoke([
     {
       role: "system",
-      content: `You are a helpful assistant that translates text from English to German.
-      Translate the given text to German. Return only the translated text, no other text.`,
+      content: `You are a helpful assistant that translates text from English to ${language}.
+      Translate the given text to ${language}. Return only the translated text, no other text.`,
     },
     {
       role: "user",

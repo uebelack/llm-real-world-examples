@@ -108,7 +108,9 @@ Ein Large Language Model (LLM) ist eine Art von künstlicher Intelligenz, die da
 
 # 🗼 Lokalisierung automatisieren
 
-<img src="./images/localization.png" />
+<div class="center">
+  <img src="./images/localization.png" style="width: 90%;"/>
+</div>
 
 ---
 
@@ -130,15 +132,17 @@ layout: two-cols-header
 
 ::right::
 
-<img src="./images/kotzrein2.png" />
+<img src="./images/kotzrein2.png" style="height: 80%"/>
 
 ---
 
 # Was ist RAG?
 
-RAG, oder Retrieval-Augmented Generation, ist eine KI-Technik, die die Fähigkeit eines Large Language Models zur Textgenerierung mit einer externen Wissensbasis, wie einer Datenbank oder einem Dokumentenset, kombiniert, um genauere und relevantere Antworten zu erzeugen.
+RAG (Retrieval-Augmented Generation) ist eine KI-Technik, mit der sich die Ausgabe eines LLM durch gezielte Informationen optimieren lässt, ohne das zugrunde liegende Modell selbst anzupassen.
 
-<img src="./images/rag.svg" style="padding-bottom: 20px;"/>
+<div class="center"  style="height: 65%; padding-top: 30px;">
+  <img src="./images/rag.svg"/>
+</div>
 
 ---
 
@@ -155,20 +159,20 @@ RAG, oder Retrieval-Augmented Generation, ist eine KI-Technik, die die Fähigkei
 <div class="emoji-list" style="width: 70%">
 
 🤷 **Vertraue keinem LLM**
-<br/>das LLM macht nicht was Du willst
+<br/>das LLM macht nicht, was Du willst
 
 * 🎯 **Kleine Tasks**
 <br>ein Prompt, ein klares Ziel
 
 * 🗄️ **Prompts einzeln testbar machen**
-<br>cache in der Entwicklung, Integrations Tests
+<br>Cache und Integrations Tests beim entwickeln
 
 * 🔁 **Retries**
 <br> bei Structured Output
 
 
 * 🚀 **Dranbleiben** 
-<br/> das Feld bewegt sich täglich
+<br/> das KI Umfeld ändert sich täglich
 
 </div>
 

@@ -18,9 +18,8 @@ examples/
   js/         # TypeScript examples (LangChain)
   python/     # Python examples (LangChain)
 slides/
-  js-en/      # English / JavaScript
-  js-de/      # German / JavaScript
-  java-de/    # German / Java
+  en/         # English
+  de/         # German
 ```
 
 ## Examples
@@ -29,13 +28,13 @@ slides/
 
 Runnable TypeScript demos live in [`examples/js`](examples/js). They use [LangChain](https://js.langchain.com/) and are meant to be run from that directory (locale paths are relative to it).
 
-| Script                          | Topic                                                            |
-| ------------------------------- | ---------------------------------------------------------------- |
-| `src/001-translation.ts`        | Translate missing keys in locale JSON via Claude (Anthropic API) |
-| `src/002-translation-ollama.ts` | Same flow with a local Ollama model                              |
-| `src/003-weather.ts`            | Agent with a weather tool (Claude + Open-Meteo)                  |
-| `src/004-weather-ollama.ts`     | Same agent pattern with Ollama                                   |
-| `src/005-git-commit-message.ts` | Agent sketch for commit messages from a diff                     |
+| Script                          | Topic                                                   |
+| ------------------------------- | ------------------------------------------------------- |
+| `src/001-translation.ts`        | Translate missing keys in locale JSON via Anthropic API |
+| `src/002-translation-ollama.ts` | Same flow with a local Ollama model                     |
+| `src/003-weather.ts`            | Agent with a weather tool (Anthropic + Open-Meteo       |
+| `src/004-weather-ollama.ts`     | Same agent pattern with Ollama                          |
+| `src/005-git-commit-message.ts` | Agent sketch for commit messages from a diff            |
 
 ```bash
 cd examples/js
@@ -50,15 +49,15 @@ bun --watch src/001-translation.ts
 
 Equivalent Python demos live in [`examples/python`](examples/python). They use [LangChain](https://python.langchain.com/) and are meant to be run from that directory.
 
-| Script                                | Topic                                                            |
-| ------------------------------------- | ---------------------------------------------------------------- |
-| `src/001_translation.py`              | Translate missing keys in locale JSON via Claude (Anthropic API) |
-| `src/002_translation_ollama.py`       | Same flow with a local Ollama model                              |
-| `src/003_weather.py`                  | Agent with a weather tool (Claude + Open-Meteo)                  |
-| `src/004_weather_ollama.py`           | Same agent pattern with Ollama                                   |
-| `src/005_git_commit_message.py`       | Agent sketch for commit messages from a diff                     |
-| `src/006_mail_support.py`             | Support mail response with RAG (LanceDB + Ollama embeddings)     |
-| `src/007_mail_support_populate_db.py` | Populate LanceDB with support mail embeddings                    |
+| Script                                | Topic                                                        |
+| ------------------------------------- | ------------------------------------------------------------ |
+| `src/001_translation.py`              | Translate missing keys in locale JSON via Anthropic API      |
+| `src/002_translation_ollama.py`       | Same flow with a local Ollama model                          |
+| `src/003_weather.py`                  | Agent with a weather tool (Anthropic + Open-Meteo)           |
+| `src/004_weather_ollama.py`           | Same agent pattern with Ollama                               |
+| `src/005_git_commit_message.py`       | Agent sketch for commit messages from a diff                 |
+| `src/006_mail_support.py`             | Support mail response with RAG (LanceDB + Ollama embeddings) |
+| `src/007_mail_support_populate_db.py` | Populate LanceDB with support mail embeddings                |
 
 ```bash
 cd examples/python
@@ -72,7 +71,7 @@ python src/001_translation.py
 
 ### Prerequisites
 
-- **Claude examples** (`001`, `003`, `005`, `006`): set `ANTHROPIC_API_KEY` in your environment.
+- **Anthropic examples** (`001`, `003`, `005`, `006`): set `ANTHROPIC_API_KEY` in your environment.
 - **Ollama examples** (`002`, `004`): [Ollama](https://ollama.com/) running locally with the model `qwen3.5:latest`.
 - **RAG examples** (`006`, `007`): Ollama with `qwen3-embedding:0.6b` for embeddings. Run `007` first to populate the database.
 
@@ -81,9 +80,9 @@ python src/001_translation.py
 Slides are built with [Slidev](https://sli.dev) and deployed on [Vercel](https://vercel.com).
 
 ```bash
-cd slides/<variant>   # e.g. slides/js-en
-pnpm install
-pnpm dev
+cd slides/<variant>   # e.g. slides/en
+bun install
+bun dev
 ```
 
 ## Links

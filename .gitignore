@@ -7,3 +7,4 @@ __pycache__
 src/cache
 node_modules
 lancedb.db
+examples/java/target

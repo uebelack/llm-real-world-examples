@@ -1,6 +1,5 @@
 import fs from "fs";
 import * as lancedb from "@lancedb/lancedb";
-import { v4 as uuidv4 } from "uuid";
 import { OllamaEmbeddings } from "@langchain/ollama";
 
 type Document = {
@@ -22,7 +21,7 @@ async function addDocument(
   console.log(`Loading document: ${filePath}`);
   const content = fs.readFileSync(filePath, "utf8");
   const vector = await embeddings.embedQuery(content);
-  data.push({ id: uuidv4(), content: content, vector: vector });
+  data.push({ id: files[index], content: content, vector: vector });
   if (index < files.length - 1) {
     await addDocument(files, data, index + 1);
   }

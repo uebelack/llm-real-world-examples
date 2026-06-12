@@ -14,7 +14,8 @@ async function answerSupportMail(subject: string, message: string) {
   const response = await model.invoke([
     {
       role: "system",
-      content: `You are a helpful assistant that answers support mails. Please create a response for the given mail.`,
+      content: `You are a helpful assistant that answers support mails. 
+        Please create a response for the given mail.`,
     },
     {
       role: "user",

@@ -1,0 +1,19 @@
+- Willkommen
+- Über mich
+- KI ändert unseren Job
+- Heutige Themen
+- Was ist ein LLM
+- Lokalisierung automatisieren
+- Beispiel Anthropic
+- Beispiel Ollama
+- Babeli
+- Was ist ein KI-Agent
+- Git Commit Messages
+- Beispiel Antrhopic
+- LangSmith
+- Tossitin
+- Was ist RAG
+- Beispiel ohne Vector DB
+- Vector DB erstellen
+- Beispiel mit Vector DB
+- Tipps zum Schluss

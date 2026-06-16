@@ -12,9 +12,6 @@ cd ../babeli
 
 cursor .
 
-cd ../tossitin
-
-cursor .
-
+open https://ollama.com/
 open https://eu.smith.langchain.com/
 open https://llm-real-world-examples-de.vercel.app/

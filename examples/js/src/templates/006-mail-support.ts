@@ -2,8 +2,8 @@ import { ChatAnthropic } from "@langchain/anthropic";
 import * as z from "zod";
 
 const mailSchema = z.object({
-  subject: z.string(),
-  message: z.string(),
+  subject: z.string("The subject of the mail"),
+  message: z.string("The message of the mail"),
 });
 
 const model = new ChatAnthropic({

@@ -8,3 +8,4 @@ src/cache
 node_modules
 lancedb.db
 examples/java/target
+examples/java/.idea
